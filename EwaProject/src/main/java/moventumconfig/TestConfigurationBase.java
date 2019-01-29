@@ -43,7 +43,7 @@ public abstract class TestConfigurationBase
         if(driver == null){
             System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");
             driver = new ChromeDriver();
-            driver.get("http://172.17.15.20:8082/dev/en-US/Account/Login");
+            driver.get("");
             driver.manage().window().maximize();
         }
     }
