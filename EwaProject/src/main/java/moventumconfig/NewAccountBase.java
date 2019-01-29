@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeTest;
 
 public class NewAccountBase extends TestConfigurationBase {
-    public static String username =  "delta.afs.demo";
-    public static String password = "movweb2014"
+    public static String username =  "";
+    public static String password = ""
 
     @BeforeTest
     public void loginPlatform()
